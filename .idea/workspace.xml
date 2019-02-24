@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d68805f4-3de5-4007-9993-70483ccb0d82" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/rollover.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/rollover.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,7 +36,7 @@
         <counts>
           <entry key="css" value="2" />
           <entry key="html" value="4" />
-          <entry key="js" value="2" />
+          <entry key="js" value="3" />
           <entry key="json" value="1" />
           <entry key="png" value="4" />
           <entry key="svg" value="5" />
@@ -46,24 +48,24 @@
           <entry key="HTML" value="4" />
           <entry key="Image" value="4" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JavaScript" value="3" />
           <entry key="SVG" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1902" />
-          <entry key="html" value="1565" />
-          <entry key="js" value="42" />
-          <entry key="txt" value="26" />
+          <entry key="css" value="2011" />
+          <entry key="html" value="1680" />
+          <entry key="js" value="101" />
+          <entry key="txt" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1902" />
-          <entry key="HTML" value="1565" />
-          <entry key="JavaScript" value="42" />
-          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="CSS" value="2011" />
+          <entry key="HTML" value="1680" />
+          <entry key="JavaScript" value="101" />
+          <entry key="PLAIN_TEXT" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -78,8 +80,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="59" column="93" selection-start-line="59" selection-start-column="93" selection-end-line="59" selection-end-column="93" />
+            <state relative-caret-position="311">
+              <caret line="87" column="148" selection-start-line="87" selection-start-column="148" selection-end-line="87" selection-end-column="148" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/rollover.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -87,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="135" column="18" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+            <state relative-caret-position="546">
+              <caret line="104" column="10" selection-start-line="104" selection-start-column="10" selection-end-line="104" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -110,8 +121,12 @@
       <find>mainSection</find>
       <find>col-6 col-sm-3</find>
       <find>border: 3px solid #696969;</find>
-      <find>box</find>
       <find>border: 3px solid #FFFFFF</find>
+      <find>box</find>
+      <find>box</find>
+      <find>socialGraphics</find>
+      <find>subtitle</find>
+      <find>hvr-fade</find>
     </findStrings>
     <replaceStrings>
       <replace>gradient</replace>
@@ -124,8 +139,11 @@
       <replace>row justify-content-center</replace>
       <replace>col-6 col-sm-3 border-box</replace>
       <replace>border: 3px solid #FFFFFF</replace>
-      <replace>box border-box</replace>
       <replace>border: 3px solid #FFFFFF;</replace>
+      <replace>box border-box</replace>
+      <replace>githubGraphics</replace>
+      <replace>demoTitle</replace>
+      <replace>hvr-face icons</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -182,6 +200,12 @@
               <item name="portfolio2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,7 +264,7 @@
       <workItem from="1547678849189" duration="11914000" />
       <workItem from="1548267538080" duration="12000" />
       <workItem from="1549071634028" duration="3362000" />
-      <workItem from="1550986352677" duration="7789000" />
+      <workItem from="1550986352677" duration="9457000" />
     </task>
     <task id="LOCAL-00001" summary="adjusted size of signature">
       <created>1550986447095</created>
@@ -249,17 +273,24 @@
       <option name="project" value="LOCAL" />
       <updated>1550986447095</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added b4 grid boxes for projects">
+      <created>1550995026705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550995026705</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24158000" />
+    <option name="totallyTimeSpent" value="25826000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="412" y="0" width="868" height="800" extended-state="6" />
+    <frame x="570" y="0" width="710" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.45137882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -286,7 +317,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adjusted size of signature" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusted size of signature" />
+    <MESSAGE value="added b4 grid boxes for projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="added b4 grid boxes for projects" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/contact.html">
@@ -320,13 +352,6 @@
     <entry file="file://$PROJECT_DIR$/src/assets/social/github_gradient.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/rollover.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/src/assets/construction.svg">
       <provider selected="true" editor-type-id="images" />
@@ -335,17 +360,24 @@
     <entry file="file://$PROJECT_DIR$/src/assets/logoGradient.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/rollover.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="135" column="18" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+        <state relative-caret-position="546">
+          <caret line="104" column="10" selection-start-line="104" selection-start-column="10" selection-end-line="104" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="59" column="93" selection-start-line="59" selection-start-column="93" selection-end-line="59" selection-end-column="93" />
+        <state relative-caret-position="311">
+          <caret line="87" column="148" selection-start-line="87" selection-start-column="148" selection-end-line="87" selection-end-column="148" />
         </state>
       </provider>
     </entry>

@@ -9,25 +9,25 @@ body{
     flex-direction: column;
     margin: 0 auto;
 }
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.navigation{
-    display: flex;
-    flex-direction: row;
-}
-.navigation li {
-    display: inline-block;
+/*.navbar{*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+/*}*/
+/*.navigation{*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+/*}*/
+/*.navigation li {*/
+    /*display: inline-block;*/
 
-}
-.navigation li a {
-    display: block;
-    padding: 1em 0.5em;
-    text-decoration: none;
-    color: #696969;
-}
+/*}*/
+/*.navigation li a {*/
+    /*display: block;*/
+    /*padding: 1em 0.5em;*/
+    /*text-decoration: none;*/
+    /*color: #696969;*/
+/*}*/
 .socialGraphics{
     width: 20px;
     margin-left: 10px;
@@ -91,12 +91,20 @@ body{
     justify-content: center;
     align-items: center;
 }
-/*.box{*/
-    /*width: 250px;*/
-    /*height: 250px;*/
-    /*border: 2px solid #ffffff;*/
-    /*margin: 15px;*/
-/*}*/
+.projectBox{
+    display: flex;
+    flex-direction: column;
+}
+.caption{
+    margin-left: 20px;
+}
+.demoTitle{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.demoIcons{
+    width: 20px;
+}
 .border-box{
     position: relative;
     width:250px;
@@ -135,7 +143,10 @@ body{
 .clickable:hover{
     color: #ffffff;
 }
-
+.demos{
+    width: 100%;
+    height: 100%;
+}
 @media screen and (max-width: 992px) {
     .headerSection{
         display: flex;

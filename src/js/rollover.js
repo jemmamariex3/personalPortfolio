@@ -1,5 +1,5 @@
 $(function() {
-    $(".socialGraphics")
+    $(".icons")
         .mouseover(function() {
             var src = $(this).attr("src");
             var regex = /_gray.png/gi;
