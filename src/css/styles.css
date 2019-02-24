@@ -1,5 +1,6 @@
 body{
     background: #C9E3DC;
+    /*background: #e9f6f2;*/
     font-family: "Century Gothic", serif;
     color: #696969;
 }
@@ -7,7 +8,6 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-
 }
 .navbar{
     display: flex;
@@ -17,7 +17,6 @@ body{
 .navigation{
     display: flex;
     flex-direction: row;
-    margin-left: -40px;
 }
 .navigation li {
     display: inline-block;
@@ -30,8 +29,14 @@ body{
     color: #696969;
 }
 .socialGraphics{
-    width: 25px;
+    width: 20px;
     margin-left: 10px;
+}
+.socialContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 35px;
+
 }
 .hvr-fade {
     display: inline-block;
@@ -47,12 +52,10 @@ body{
     -webkit-transition: opacity 0.5s ease-out;
     transition: opacity 0.5s ease-out;
 }
-.mainSection{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.headerSection{
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
 }
 .headshot{
     width: 250px;
@@ -61,12 +64,177 @@ body{
 }
 .title{
     font-family: "Avenir Next Condensed", serif;
-    font-size: 35px;
+    font-size: 25px;
     color: #696969;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .subtitle{
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 20px;
+}
+
+.signature{
+    width: 350px;
+    /*height: 70px;*/
+}
+.projectSection{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*.box{*/
+    /*width: 250px;*/
+    /*height: 250px;*/
+    /*border: 2px solid #ffffff;*/
+    /*margin: 15px;*/
+/*}*/
+.border-box{
+    position: relative;
+    width:250px;
+    height: 250px;
+    border: none;
+    margin: 15px;
+    padding: 3px;
+    transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+    -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+}
+.border-box:hover{
+    position: relative;
+    width:250px;
+    height: 250px;
+    border: 3px solid #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 3px;
+    transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+    -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.footerText{
+    font-size: 12px;
+}
+.clickable{
+    color: #696969;
+}
+.clickable:hover{
+    color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+    .headerSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .border-box{
+        position: relative;
+        width:230px;
+        height: 230px;
+        border: none;
+        margin: 15px;
+        padding: 3px;
+        transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+        -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+    }
+    .border-box:hover{
+        position: relative;
+        width:230px;
+        height: 230px;
+        border: 3px solid #FFFFFF;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 3px;
+        transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+        -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .headerSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title{
+        font-family: "Avenir Next Condensed", serif;
+        font-size: 20px;
+        color: #696969;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .subtitle{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .signature{
+        width: 250px;
+        /*height: 70px;*/
+    }
+
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .border-box{
+        position: relative;
+        width:200px;
+        height: 200px;
+        border: none;
+        margin: 15px;
+        padding: 3px;
+        transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+        -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+    }
+    .border-box:hover{
+        position: relative;
+        width:200px;
+        height: 200px;
+        border: 3px solid #FFFFFF;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 3px;
+        transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+        -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+    }
 }
