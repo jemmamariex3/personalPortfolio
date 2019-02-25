@@ -29,7 +29,7 @@ body{
     /*color: #696969;*/
 /*}*/
 .socialGraphics{
-    width: 20px;
+    width: 23px;
     margin-left: 10px;
 }
 .socialContainer{
@@ -99,32 +99,39 @@ body{
     margin-left: 20px;
 }
 .demoTitle{
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 0;
 }
 .demoIcons{
-    width: 20px;
+    width: 23px;
 }
 .border-box{
     position: relative;
-    width:250px;
-    height: 250px;
+    width:300px;
+    height: 300px;
     border: none;
     margin: 15px;
     padding: 3px;
+    cursor: pointer;
     transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
     -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
 }
 .border-box:hover{
     position: relative;
-    width:250px;
-    height: 250px;
+    width:290px;
+    height: 290px;
     border: 3px solid #FFFFFF;
     border-radius: 5px;
     margin-bottom: 10px;
     padding: 3px;
     transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
     -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+}
+
+button.border-box{
+    outline: none;
+    padding: 0;
+    background-color: transparent;
 }
 .footer{
     display: flex;
@@ -146,6 +153,62 @@ body{
 .demos{
     width: 100%;
     height: 100%;
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .headerSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .border-box{
+        position: relative;
+        width:280px;
+        height: 280px;
+        border: none;
+        margin: 15px;
+        padding: 3px;
+        transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+        -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+    }
+    .border-box:hover{
+        position: relative;
+        width:270px;
+        height: 270px;
+        border: 3px solid #5b529e;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 3px;
+        transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+        -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+    }
+    .signature{
+        width: 400px;
+        /*height: 70px;*/
+    }
+    .socialGraphics{
+        width: 25px;
+        margin-left: 10px;
+    }
+    .demoTitle{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .demoIcons{
+        width: 25px;
+    }
 }
 @media screen and (max-width: 992px) {
     .headerSection{
@@ -169,8 +232,8 @@ body{
     }
     .border-box{
         position: relative;
-        width:230px;
-        height: 230px;
+        width:400px;
+        height: 400px;
         border: none;
         margin: 15px;
         padding: 3px;
@@ -179,14 +242,29 @@ body{
     }
     .border-box:hover{
         position: relative;
-        width:230px;
-        height: 230px;
-        border: 3px solid #FFFFFF;
+        width:390px;
+        height: 390px;
+        border: 3px solid #5b529e;
         border-radius: 5px;
         margin-bottom: 10px;
         padding: 3px;
         transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
         -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+    }
+    .signature{
+        width: 400px;
+        /*height: 70px;*/
+    }
+    .socialGraphics{
+        width: 25px;
+        margin-left: 10px;
+    }
+    .demoTitle{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .demoIcons{
+        width: 25px;
     }
 }
 
@@ -215,7 +293,7 @@ body{
         margin-bottom: 20px;
     }
     .signature{
-        width: 250px;
+        width: 300px;
         /*height: 70px;*/
     }
 
@@ -229,8 +307,8 @@ body{
 
     .border-box{
         position: relative;
-        width:200px;
-        height: 200px;
+        width:250px;
+        height: 250px;
         border: none;
         margin: 15px;
         padding: 3px;
@@ -239,13 +317,24 @@ body{
     }
     .border-box:hover{
         position: relative;
-        width:200px;
-        height: 200px;
-        border: 3px solid #FFFFFF;
+        width:240px;
+        height: 240px;
+        border: 3px solid #5b529e;
         border-radius: 5px;
         margin-bottom: 10px;
         padding: 3px;
         transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
         -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+    }
+    .socialGraphics{
+        width: 22px;
+        margin-left: 10px;
+    }
+    .demoTitle{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .demoIcons{
+        width: 22px;
     }
 }
