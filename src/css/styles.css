@@ -75,7 +75,7 @@ body{
 }
 
 .signature{
-    width: 350px;
+    width: 400px;
     /*height: 70px;*/
 }
 .projectSection{
@@ -113,8 +113,8 @@ body{
     margin: 15px;
     padding: 3px;
     cursor: pointer;
-    transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
-    -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+    transition: border 0.3s ease-in-out;
+    -webkit-transition: border 0.3s ease-in-out;
 }
 .border-box:hover{
     position: relative;
@@ -124,8 +124,8 @@ body{
     border-radius: 5px;
     margin-bottom: 10px;
     padding: 3px;
-    transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
-    -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+    transition: border 0.3s ease-in-out;
+    -webkit-transition: border 0.3s ease-in-out;
 }
 
 button.border-box{
@@ -135,7 +135,7 @@ button.border-box{
 }
 .footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: center;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
@@ -180,8 +180,8 @@ button.border-box{
         border: none;
         margin: 15px;
         padding: 3px;
-        transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
-        -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+        transition: border 0.3s ease-in-out;
+        -webkit-transition: border 0.3s ease-in-out;
     }
     .border-box:hover{
         position: relative;
@@ -191,8 +191,8 @@ button.border-box{
         border-radius: 5px;
         margin-bottom: 10px;
         padding: 3px;
-        transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
-        -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+        transition: border 0.3s ease-in-out;
+        -webkit-transition: border 0.3s ease-in-out;
     }
     .signature{
         width: 400px;
@@ -237,8 +237,8 @@ button.border-box{
         border: none;
         margin: 15px;
         padding: 3px;
-        transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
-        -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+        transition: border 0.3s ease-in-out;
+        -webkit-transition: border 0.3s ease-in-out;
     }
     .border-box:hover{
         position: relative;
@@ -248,8 +248,8 @@ button.border-box{
         border-radius: 5px;
         margin-bottom: 10px;
         padding: 3px;
-        transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
-        -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+        transition: border 0.3s ease-in-out;
+        -webkit-transition: border 0.3s ease-in-out;
     }
     .signature{
         width: 400px;
@@ -312,8 +312,8 @@ button.border-box{
         border: none;
         margin: 15px;
         padding: 3px;
-        transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
-        -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+        transition: border 0.3s ease-in-out;
+        -webkit-transition: border 0.3s ease-in-out;
     }
     .border-box:hover{
         position: relative;
@@ -323,8 +323,8 @@ button.border-box{
         border-radius: 5px;
         margin-bottom: 10px;
         padding: 3px;
-        transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
-        -webkit-transition: background 0.5s ease-in-out, border 0.3s ease-in-out;
+        transition: border 0.3s ease-in-out;
+        -webkit-transition: border 0.3s ease-in-out;
     }
     .socialGraphics{
         width: 22px;

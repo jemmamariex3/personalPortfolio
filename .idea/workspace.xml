@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d68805f4-3de5-4007-9993-70483ccb0d82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/misc/play_gradient.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/misc/play_gray.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/credits.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
     </list>
@@ -38,8 +33,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
-          <entry key="html" value="8" />
+          <entry key="css" value="4" />
+          <entry key="html" value="9" />
           <entry key="js" value="3" />
           <entry key="json" value="1" />
           <entry key="png" value="4" />
@@ -48,8 +43,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="HTML" value="8" />
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="9" />
           <entry key="Image" value="4" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="3" />
@@ -58,22 +53,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2200" />
-          <entry key="html" value="2197" />
+          <entry key="css" value="2257" />
+          <entry key="html" value="2229" />
           <entry key="js" value="101" />
           <entry key="txt" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2200" />
-          <entry key="HTML" value="2197" />
+          <entry key="CSS" value="2257" />
+          <entry key="HTML" value="2229" />
           <entry key="JavaScript" value="101" />
           <entry key="PLAIN_TEXT" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
+          <entry key="git.branch.checkout.local" value="1" />
           <entry key="git.branch.create.new" value="1" />
         </counts>
       </usages-collector>
@@ -81,29 +77,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="45" column="64" lean-forward="true" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
-              <folding>
-                <element signature="e#11190#11196#0" expanded="true" />
-                <element signature="e#11918#11924#0" expanded="true" />
-                <element signature="e#12669#12675#0" expanded="true" />
-                <element signature="e#13457#13463#0" expanded="true" />
-                <element signature="e#14208#14214#0" expanded="true" />
-                <element signature="e#14959#14965#0" expanded="true" />
-                <element signature="e#16598#16605#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1010">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="147" column="19" lean-forward="true" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+            <state relative-caret-position="950">
+              <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -131,6 +118,7 @@
       <find>subtitle</find>
       <find>hvr-fade</find>
       <find>githubGraphics</find>
+      <find>background 0.5s ease-in-out, border 0.3s ease-in-out;</find>
     </findStrings>
     <replaceStrings>
       <replace>gradient</replace>
@@ -149,6 +137,7 @@
       <replace>demoTitle</replace>
       <replace>hvr-face icons</replace>
       <replace>demoIcons</replace>
+      <replace>border 0.3s ease-in-out;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -166,8 +155,8 @@
         <option value="$PROJECT_DIR$/credits.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/src/js/rollover.js" />
-        <option value="$PROJECT_DIR$/src/css/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/css/styles.css" />
       </list>
     </option>
   </component>
@@ -177,10 +166,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1854" />
-    <option name="width" value="706" />
-    <option name="height" value="1440" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="140" />
+    <option name="y" value="26" />
+    <option name="width" value="2506" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -200,6 +190,25 @@
               <item name="portfolio2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="portfolio2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="social" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -216,17 +225,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/misc" />
-      <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/src/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/assets/social" />
       <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/misc" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -293,7 +302,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31229000" />
+    <option name="totallyTimeSpent" value="33762000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -305,12 +314,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1039" y="0" width="1521" height="1440" extended-state="6" />
-    <editor active="true" />
+    <frame x="140" y="26" width="2506" height="1417" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17466667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10543259" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -320,8 +329,8 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978338" weight="0.32846716" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.13722628" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021662" side_tool="true" weight="0.32846716" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.498" weight="0.13956942" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502" side_tool="true" weight="0.13722628" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -385,29 +394,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/about.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/src/about.html" />
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="147" column="19" lean-forward="true" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+        <state relative-caret-position="-1010">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="45" column="64" lean-forward="true" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
-          <folding>
-            <element signature="e#11190#11196#0" expanded="true" />
-            <element signature="e#11918#11924#0" expanded="true" />
-            <element signature="e#12669#12675#0" expanded="true" />
-            <element signature="e#13457#13463#0" expanded="true" />
-            <element signature="e#14208#14214#0" expanded="true" />
-            <element signature="e#14959#14965#0" expanded="true" />
-            <element signature="e#16598#16605#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="950">
+          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
         </state>
       </provider>
     </entry>
