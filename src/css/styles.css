@@ -1,13 +1,19 @@
+
 body{
-    background: #C9E3DC;
-    /*background: #e9f6f2;*/
-    font-family: "Century Gothic", serif;
-    color: #696969;
-}
-.container{
+    /*background: #ddf4ee;*/
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    min-height: 100vh;
+    background-image: linear-gradient(-15deg, #ddf4ee,#FFFFFF);
+    font-family: Poppins, sans-serif;
+    color: #696969;
+    margin: 0;
+}
+.container{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 /*.navbar{*/
     /*display: flex;*/
@@ -79,11 +85,11 @@ body{
     /*height: 70px;*/
 }
 .projectSection{
-    display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .row{
     display: flex;
@@ -98,12 +104,31 @@ body{
 .caption{
     margin-left: 20px;
 }
+.demos{
+    opacity: 0.80;
+    box-shadow: 5px 5px 18px #888888;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+}
+.demos:hover{
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+}
 .demoTitle{
-    font-size: 18px;
+    font-family: "Avenir Next Condensed", serif;
+    color: #000000;
+    font-size: 20px;
     margin-bottom: 0;
 }
+.demoSubtitle{
+    font-size: 12px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
 .demoIcons{
-    width: 23px;
+    width: 20px;
+    margin-top: 5px;
 }
 .border-box{
     position: relative;
@@ -115,6 +140,7 @@ body{
     cursor: pointer;
     transition: border 0.3s ease-in-out;
     -webkit-transition: border 0.3s ease-in-out;
+
 }
 .border-box:hover{
     position: relative;
@@ -138,17 +164,39 @@ button.border-box{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+    margin-top: auto;
+    flex-shrink: 0;
 }
 .footerText{
     font-size: 12px;
+    padding: 0;
+    margin-bottom: 0;
+    color: #696969;
+}
+.footerContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+.footerGraphics{
+    width: 18px;
+    margin-left: 10px;
 }
 .clickable{
     color: #696969;
+    font-size: 16px;
+    margin-top: 0;
 }
 .clickable:hover{
-    color: #ffffff;
+    color: #5b529e;
+    margin-top: 0;
+}
+.csunToday{
+    color: #000000;
+    font-size: 12px;
+}
+.csunToday:hover{
+    color: #5b529e;
 }
 .demos{
     width: 100%;
@@ -187,7 +235,7 @@ button.border-box{
         position: relative;
         width:270px;
         height: 270px;
-        border: 3px solid #5b529e;
+        border: 3px solid #FFFFFF;
         border-radius: 5px;
         margin-bottom: 10px;
         padding: 3px;
@@ -203,11 +251,20 @@ button.border-box{
         margin-left: 10px;
     }
     .demoTitle{
-        font-size: 18px;
+        font-family: "Avenir Next Condensed", serif;
+        color: #000000;
+        font-size: 20px;
         margin-bottom: 0;
     }
+    .demoSubtitle{
+        font-size: 12px;
+        margin-bottom: 0;
+        font-weight: 400;
+
+    }
     .demoIcons{
-        width: 25px;
+        width: 20px;
+        margin-top: 5px;
     }
 }
 @media screen and (max-width: 992px) {
@@ -244,7 +301,7 @@ button.border-box{
         position: relative;
         width:390px;
         height: 390px;
-        border: 3px solid #5b529e;
+        border: 3px solid #FFFFFF;
         border-radius: 5px;
         margin-bottom: 10px;
         padding: 3px;
@@ -260,11 +317,20 @@ button.border-box{
         margin-left: 10px;
     }
     .demoTitle{
+        font-family: "Avenir Next Condensed", serif;
+        color: #000000;
         font-size: 18px;
         margin-bottom: 0;
     }
+    .demoSubtitle{
+        font-size: 12px;
+        margin-bottom: 0;
+        font-weight: 400;
+
+    }
     .demoIcons{
-        width: 25px;
+        width: 20px;
+        margin-top: 5px;
     }
 }
 
@@ -284,7 +350,7 @@ button.border-box{
     .title{
         font-family: "Avenir Next Condensed", serif;
         font-size: 20px;
-        color: #696969;
+        color: #000000;
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -319,7 +385,7 @@ button.border-box{
         position: relative;
         width:240px;
         height: 240px;
-        border: 3px solid #5b529e;
+        border: 3px solid #FFFFFF;
         border-radius: 5px;
         margin-bottom: 10px;
         padding: 3px;
@@ -331,10 +397,19 @@ button.border-box{
         margin-left: 10px;
     }
     .demoTitle{
-        font-size: 16px;
+        font-family: "Avenir Next Condensed", serif;
+        color: #000000;
+        font-size: 20px;
         margin-bottom: 0;
     }
+    .demoSubtitle{
+        font-size: 12px;
+        margin-bottom: 0;
+        font-weight: 400;
+
+    }
     .demoIcons{
-        width: 22px;
+        width: 18px;
+        margin-top: 5px;
     }
 }
