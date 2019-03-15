@@ -54,8 +54,9 @@
 
         </div>
         <div class="projectSection">
-            <div class="row">
-                <div class="projectBox" data-toggle="modal" data-target="#exampleModal">
+            <h1 class="ml12">Projects</h1>
+            <div class="row ">
+                <div class="projectBox" data-toggle="modal" data-target="#mobileApp">
                     <button type="button" class="border-box" data-toggle="modal" data-target="#exampleModalCenter"><img class="demos" src="./src/assets/project/mobileGraphic.png"></button>
                     <div class="caption">
                         <p class="demoTitle">Career Center Mobile App</p>
@@ -67,17 +68,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="projectBox">
-                    <div class="border-box"><img class="demos" src="./src/assets/project/cc_homepage.png"></div>
+                <div class="projectBox" data-toggle="modal" data-target="#careerSite">
+                    <button type="button" class="border-box" data-toggle="modal" data-target="#exampleModalCenter"><img class="demos" src="./src/assets/project/cc_homepage.png"></button>
                     <div class="caption">
                         <p class="demoTitle">Career Center Home Page</p>
                         <p class="demoSubtitle">HTML, CSS, JS + Drupal</p>
                         <div class="demoLinks">&nbsp;
                             <a href="https://youtu.be/DOFu7gQ_Nyc" target="_blank"><img src="src/assets/misc/play_gray.png" class="demoIcons hvr-face icons" alt="Video icon"/></a>
-                        </div>                    </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="projectBox">
-                    <div class="border-box"><img class="demos" src="./src/assets/project/cinthy_profile.png"></div>
+                <div class="projectBox" data-toggle="modal" data-target="#aiJam">
+                    <button type="button" class="border-box" data-toggle="modal" data-target="#exampleModalCenter"><img class="demos" src="./src/assets/project/cinthy_profile.png"></button>
                     <div class="caption">
                         <p class="demoTitle">AI Jam</p>
                         <p class="demoSubtitle">AWS Lex + Lambda</p>
@@ -90,9 +92,10 @@
                         </div>
                     </div>
                 </div>
-            </div> <div class="row">
-                <div class="projectBox">
-                    <div class="border-box"><img class="demos" src="./src/assets/project/strengths.png"></div>
+            </div>
+            <div class="row">
+                <div class="projectBox" data-toggle="modal" data-target="#strengthsSite">
+                    <button type="button" class="border-box" data-toggle="modal" data-target="#exampleModalCenter"><img class="demos" src="./src/assets/project/strengths.png"></button>
                     <div class="caption">
                         <p class="demoTitle">Strength Website</p>
                         <p class="demoSubtitle">HTML, CSS, + JS/jQuery</p>
@@ -102,8 +105,8 @@
                             <a href="https://youtu.be/LjOWJKUQEck" target="_blank"><img src="src/assets/misc/play_gray.png" class="demoIcons hvr-face icons" alt="Video icon"/></a>
                         </div>                    </div>
                 </div>
-                <div class="projectBox">
-                    <div class="border-box"><img class="demos" src="./src/assets/project/healthsensors.jpg"></div>
+                <div class="projectBox" data-toggle="modal" data-target="#wearable">
+                    <button type="button" class="border-box" data-toggle="modal" data-target="#exampleModalCenter"><img class="demos" src="./src/assets/project/healthsensors.jpg"></button>
                     <div class="caption">
                         <p class="demoTitle">Wearable Health Sensor Technology</p>
                         <p class="demoSubtitle">PHP, JS, + MySQL</p>
@@ -114,8 +117,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="projectBox">
-                    <div class="border-box"><img class="demos" src="./src/assets/project/demo-7.jpg"></div>
+                <div class="projectBox" data-toggle="modal" data-target="#demo">
+                    <button type="button" class="border-box" data-toggle="modal" data-target="#exampleModalCenter"><img class="demos" src="./src/assets/project/demo-7.jpg"></button>
                     <div class="caption">
                         <p class="demoTitle">Demo 1</p>
                         <p class="demoSubtitle">React Native + React Navigation</p>
@@ -145,29 +148,152 @@
     </main>
 
     <!--Modals for the Project Section-->
-    <!--<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">-->
-        <!--<div class="modal-dialog modal-dialog-centered modal-lg" role="document">-->
-            <!--<div class="modal-content">-->
-                <!--<div class="modal-header">-->
-                    <!--<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>-->
-                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
-                        <!--<span aria-hidden="true">&times;</span>-->
-                    <!--</button>-->
-                <!--</div>-->
-                <!--<div class="modal-body">-->
-                    <!--...-->
-                <!--</div>-->
-                <!--<div class="modal-footer">-->
-                    <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
-                    <!--<button type="button" class="btn btn-primary">Save changes</button>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
+    <!--Mobile App-->
+    <div class="modal fade" id="mobileApp" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <header class="modalHeader" id="cinthyHeader">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <br>
+                    <h1 class="modalTitle" id="cinthyTitle">Career Center Mobile App</h1>
+                </header>
+                <div class="modal-body" id="cinthyBody">
+                    <img src="./src/assets/modal/mobileApp/smallLeaf2.png" class="smallLeaf">
+                    <img src="./src/assets/modal/mobileApp/palm2.png" class="palm">
+                    <img src="./src/assets/modal/mobileApp/cinthy.png" class="cinthy">
+                    <img src="./src/assets/modal/mobileApp/leaf.png" class="leaf">
+                    <img src="./src/assets/modal/mobileApp/leaf2.png" class="leaf2">
+                    <iframe width="90%" height="300px"
+                            src="https://www.youtube.com/embed/XwJQsHX6ACI">
+                    </iframe>
+                    <h2 class="modalSubitle">Design Concept</h2>
+                    <div class="paragraph">
+                        <p>
+                            Most students in universities feel an overwhelming anxiety when faced with the thought of looking for an internship or a position that would provide work experiences before graduating.
+                            The pressure of having to research for opening positions is one thing, but having to prepare for the interviewing process is another.
+                            With our mobile app, students and faculties at CSUN will have a more accessible and convenient way to get all job resources that they need to help them feel more confident and ready.
+                            Developing our Career Center Mobile App allows our team to help alleviate the stress and anxiety by creating a less intimidating and fun learning environment.
+                        </p>
+                    </div>
+                    <h2 class="modalSubitle">Contribution</h2>
+                    <div class="paragraph">
+                        My contribution to this project are the following:
+                        <p></p>
+                        - Designed the architecture and navigational layout of the app using <strong>React Native</strong> and <strong>React Navigation</strong>
+                        <p></p>
+                        - Translated the UI/UX design into a fully functional iOS app
+                        <p></p>
+                        - Research and implemented the onboarding and splash screen features of the app
+                        <p></p>
+                        - Experimented with CSS and SVG animations for React Native
+                    </div>
+                    <h2 class="modalSubitle">Technology Used</h2>
+                    <div class="paragraph">
+                        React-Native JS | Node JS | Xcode | Webstorm | iOS Simulator
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Career Site-->
+    <div class="modal fade" id="careerSite" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <header class="modalHeader" id="siteHeader">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <br>
+                    <h1 class="modalTitle" id="siteTitle">Career Center Website</h1>
+                </header>
+                <div class="modal-body" id="siteBody">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--AI Jam-->
+    <div class="modal fade" id="aiJam" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <header class="modalHeader" id="aiHeader">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <br>
+                    <h1 class="modalTitle" id="aiTitle">AIJam Hackathon</h1>
+                </header>
+                <div class="modal-body" id="aiBody">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Strengths-->
+    <div class="modal fade" id="strengthsSite" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <header class="modalHeader" id="strengthsHeader">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <br>
+                    <h1 class="modalTitle" id="strengthsTitle">Strengths</h1>
+                </header>
+                <div class="modal-body" id="strengthsBody">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Wearable-->
+    <div class="modal fade" id="wearable" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <header class="modalHeader" id="wearableHeader">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <br>
+                    <h1 class="modalTitle" id="wearableTitle">Wearable Health Sensor Research</h1>
+                </header>
+                <div class="modal-body" id="wearableBody">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Demo-->
+    <div class="modal fade" id="demo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <header class="modalHeader" id="demoHeader">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <br>
+                    <h1 class="modalTitle" id="demoTitle">Demo</h1>
+                </header>
+                <div class="modal-body" id="demoBody">
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="./src/js/rollover.js"></script>
+    <script src="./src/js/movingLetters.js"></script>
+
 </body>
 </html>
