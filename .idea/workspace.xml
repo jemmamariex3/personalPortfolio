@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d68805f4-3de5-4007-9993-70483ccb0d82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/modal/about/computer_gradient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
@@ -35,7 +35,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="6" />
+          <entry key="css" value="7" />
           <entry key="html" value="10" />
           <entry key="jpg" value="1" />
           <entry key="js" value="6" />
@@ -46,7 +46,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="6" />
+          <entry key="CSS" value="7" />
           <entry key="HTML" value="10" />
           <entry key="Image" value="18" />
           <entry key="JSON" value="1" />
@@ -56,18 +56,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="4608" />
-          <entry key="html" value="7083" />
+          <entry key="css" value="4765" />
+          <entry key="html" value="7089" />
           <entry key="js" value="188" />
-          <entry key="txt" value="259" />
+          <entry key="txt" value="286" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="4608" />
-          <entry key="HTML" value="7083" />
+          <entry key="CSS" value="4765" />
+          <entry key="HTML" value="7089" />
           <entry key="JavaScript" value="188" />
-          <entry key="PLAIN_TEXT" value="259" />
+          <entry key="PLAIN_TEXT" value="286" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -80,11 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="273" column="94" selection-start-line="273" selection-start-column="94" selection-end-line="273" selection-end-column="94" />
+            <state relative-caret-position="345">
+              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
               <folding>
                 <element signature="e#28703#28710#1" expanded="true" />
               </folding>
@@ -95,8 +95,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="555" column="1" lean-forward="true" selection-start-line="555" selection-start-column="1" selection-end-line="555" selection-end-column="1" />
+            <state relative-caret-position="164">
+              <caret line="470" selection-start-line="470" selection-end-line="470" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/css/responsive.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -195,6 +204,7 @@
         <option value="$PROJECT_DIR$/src/js/movingLetters.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/css/styles.css" />
+        <option value="$PROJECT_DIR$/src/css/responsive.css" />
       </list>
     </option>
   </component>
@@ -205,8 +215,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="271" />
-    <option name="y" value="23" />
+    <option name="x" value="911" />
+    <option name="y" value="134" />
     <option name="width" value="1009" />
     <option name="height" value="752" />
   </component>
@@ -342,7 +352,7 @@
       <workItem from="1552344302619" duration="436000" />
       <workItem from="1552506042250" duration="654000" />
       <workItem from="1552668444755" duration="12736000" />
-      <workItem from="1552867217863" duration="7613000" />
+      <workItem from="1552867217863" duration="10397000" />
     </task>
     <task id="LOCAL-00001" summary="adjusted size of signature">
       <created>1550986447095</created>
@@ -407,11 +417,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552683537427</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added About me and graphics">
+      <created>1552881406578</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1552881406578</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73908000" />
+    <option name="totallyTimeSpent" value="76692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,7 +440,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="271" y="23" width="1009" height="752" extended-state="0" />
+    <frame x="911" y="134" width="1009" height="752" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17206478" />
@@ -481,7 +498,8 @@
     <MESSAGE value="fixed flex direction of footer" />
     <MESSAGE value="fixed background gradient" />
     <MESSAGE value="added modals for cards, added animated Projects Header" />
-    <option name="LAST_COMMIT_MESSAGE" value="added modals for cards, added animated Projects Header" />
+    <MESSAGE value="Added About me and graphics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added About me and graphics" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/css/bootstrap.css">
@@ -545,20 +563,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="555" column="1" lean-forward="true" selection-start-line="555" selection-start-column="1" selection-end-line="555" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="273" column="94" selection-start-line="273" selection-start-column="94" selection-end-line="273" selection-end-column="94" />
+        <state relative-caret-position="345">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
           <folding>
             <element signature="e#28703#28710#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="470" selection-start-line="470" selection-end-line="470" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
         </state>
       </provider>
     </entry>
