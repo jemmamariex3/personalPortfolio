@@ -74,7 +74,7 @@ body{
     height: 250px;
 
 }
-.title{
+.topTitle{
     font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
     color: #696969;
     font-size: 20px;
@@ -508,7 +508,7 @@ button.border-box{
 
 /*Career Site CSS*/
 #siteHeader{
-    background-color: #c22432;
+    background-color: #d14d5a;
 }
 #siteTitle{
     color: #FFFFFF;
