@@ -461,14 +461,14 @@ button.border-box{
 
 /*MOBILE APP CSS*/
 #cinthyHeader{
-    background-color: #d7fddf;
+    background-color: #ddfde3;
 }
 #cinthyTitle{
     color: #29C367;
 }
 #cinthyBody{
     /*background-image: linear-gradient(#88DFFF,#FCF662);*/
-    background: #d8fcff;
+    background: #e6fcff;
 }
 .cinthy{
     /*position: absolute;*/
