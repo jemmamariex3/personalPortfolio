@@ -41,9 +41,14 @@ body{
 }
 .socialContainer{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin-bottom: 35px;
-
+    flex-direction: column;
+    align-items: flex-end;
+}
+.navLinks{
+    margin-Top: 5px;
+    margin-right: 20px;
 }
 .hvr-fade {
     display: inline-block;
@@ -451,6 +456,10 @@ button.border-box{
         z-index: 2;
         width: 180px;
     }
+    .column{
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 /*MODAL BODY CSS*/
@@ -483,6 +492,208 @@ button.border-box{
     align-items: center;
     margin: 20px;
 }
+
+/*About CSS*/
+#aboutHeader{
+    background-color: #b1d4c6;
+}
+#aboutTitle{
+    color: #FFFFFF;
+}
+#aboutBody{
+    /*background-image: linear-gradient(#88DFFF,#FCF662);*/
+}
+.headshotSection{
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+}
+.headshot{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.techTitle{
+    font-size: 18px;
+    margin-top: 18px;
+}
+.otherTitle{
+    font-size: 16px;
+    margin-top: 16px;
+}
+.computer{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.skills, .otherSkills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.otherSkills{
+    margin-top: 0;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+#column1, #column2{
+    /*padding: 10px;*/
+}
+#column3{
+    /*padding: 10px;*/
+}
+.skillTitles{
+    font-size: 16px;
+    color: #47b9d1;
+}
+.technicalSkills{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Animated Arrow*/
+.the-arrow {
+    width: 1px;
+    transition: all 0.2s;
+}
+.the-arrow.-left {
+    position: absolute;
+    top: 60%;
+    left: 0;
+}
+.the-arrow.-left > .shaft {
+    width: 0;
+    background-color: #4c4c4c;
+}
+.the-arrow.-left > .shaft:before, .the-arrow.-left > .shaft:after {
+    width: 0;
+    background-color: #4c4c4c;
+}
+.the-arrow.-left > .shaft:before {
+    transform: rotate(0);
+}
+.the-arrow.-left > .shaft:after {
+    transform: rotate(0);
+}
+.the-arrow.-right {
+    top: 3px;
+}
+.the-arrow.-right > .shaft {
+    width: 1px;
+    transition-delay: 0.2s;
+}
+.the-arrow.-right > .shaft:before, .the-arrow.-right > .shaft:after {
+    width: 8px;
+    transition-delay: 0.3s;
+    transition: all 0.5s;
+}
+.the-arrow.-right > .shaft:before {
+    transform: rotate(40deg);
+}
+.the-arrow.-right > .shaft:after {
+    transform: rotate(-40deg);
+}
+.the-arrow > .shaft {
+    background-color: #4c4c4c;
+    display: block;
+    height: 1px;
+    position: relative;
+    transition: all 0.2s;
+    transition-delay: 0;
+    will-change: transform;
+}
+.the-arrow > .shaft:before, .the-arrow > .shaft:after {
+    background-color: #4c4c4c;
+    content: '';
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.2s;
+    transition-delay: 0;
+}
+.the-arrow > .shaft:before {
+    transform-origin: top right;
+}
+.the-arrow > .shaft:after {
+    transform-origin: bottom right;
+}
+.animated-arrow {
+    display: inline-block;
+    color: #4c4c4c;
+    font-size: 1.0em;
+    font-style: italic;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.2s;
+}
+.animated-arrow:hover {
+    color: #808080;
+}
+.animated-arrow:hover > .the-arrow.-left > .shaft {
+    width: 64px;
+    transition-delay: 0.1s;
+    background-color: #808080;
+}
+.animated-arrow:hover > .the-arrow.-left > .shaft:before, .animated-arrow:hover > .the-arrow.-left > .shaft:after {
+    width: 8px;
+    transition-delay: 0.1s;
+    background-color: #808080;
+}
+.animated-arrow:hover > .the-arrow.-left > .shaft:before {
+    transform: rotate(40deg);
+}
+.animated-arrow:hover > .the-arrow.-left > .shaft:after {
+    transform: rotate(-40deg);
+}
+.animated-arrow:hover > .main {
+    transform: translateX(17px);
+    transform: translateX(80px);
+}
+.animated-arrow:hover > .main > .the-arrow.-right > .shaft {
+    width: 0;
+    transform: translateX(200%);
+    transition-delay: 0;
+}
+.animated-arrow:hover > .main > .the-arrow.-right > .shaft:before, .animated-arrow:hover > .main > .the-arrow.-right > .shaft:after {
+    width: 0;
+    transition-delay: 0;
+    transition: all 0.1s;
+}
+.animated-arrow:hover > .main > .the-arrow.-right > .shaft:before {
+    transform: rotate(0);
+}
+.animated-arrow:hover > .main > .the-arrow.-right > .shaft:after {
+    transform: rotate(0);
+}
+.animated-arrow > .main {
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+}
+.animated-arrow > .main > .text {
+    margin: 0 16px 0 0;
+    line-height: 1;
+    font-weight: bold;
+    color: #696969;
+}
+.animated-arrow > .main > .the-arrow {
+    position: relative;
+}
+
 
 /*MOBILE APP CSS*/
 #cinthyHeader{

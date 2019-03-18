@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d68805f4-3de5-4007-9993-70483ccb0d82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/modal/mobileApp/cinthy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/modal/mobileApp/leaf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/modal/mobileApp/leaf2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/modal/mobileApp/palm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/modal/mobileApp/palm2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/modal/mobileApp/smallLeaf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/modal/mobileApp/smallLeaf2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/movingLetters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/modal/about/computer_gradient.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
@@ -27,7 +20,7 @@
     <session id="-354555496">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -35,9 +28,9 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -63,18 +56,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3958" />
-          <entry key="html" value="4957" />
+          <entry key="css" value="4608" />
+          <entry key="html" value="7083" />
           <entry key="js" value="188" />
-          <entry key="txt" value="195" />
+          <entry key="txt" value="259" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3958" />
-          <entry key="HTML" value="4957" />
+          <entry key="CSS" value="4608" />
+          <entry key="HTML" value="7083" />
           <entry key="JavaScript" value="188" />
-          <entry key="PLAIN_TEXT" value="195" />
+          <entry key="PLAIN_TEXT" value="259" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -87,28 +80,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="171" column="43" lean-forward="true" selection-start-line="171" selection-start-column="43" selection-end-line="171" selection-end-column="43" />
+            <state relative-caret-position="81">
+              <caret line="273" column="94" selection-start-line="273" selection-start-column="94" selection-end-line="273" selection-end-column="94" />
               <folding>
-                <element signature="e#18562#18569#1" expanded="true" />
-                <element signature="e#21565#21572#1" expanded="true" />
-                <element signature="e#22521#22528#1" expanded="true" />
-                <element signature="e#23285#23292#1" expanded="true" />
-                <element signature="e#24106#24113#1" expanded="true" />
-                <element signature="e#24905#24912#1" expanded="true" />
+                <element signature="e#28703#28710#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="509" column="1" lean-forward="true" selection-start-line="509" selection-start-column="1" selection-end-line="509" selection-end-column="1" />
+            <state relative-caret-position="317">
+              <caret line="555" column="1" lean-forward="true" selection-start-line="555" selection-start-column="1" selection-end-line="555" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -124,10 +112,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>gray</find>
-      <find>white</find>
-      <find>&lt;/li&gt;--&gt;</find>
-      <find>mainSection</find>
       <find>col-6 col-sm-3</find>
       <find>border: 3px solid #696969;</find>
       <find>border: 3px solid #FFFFFF</find>
@@ -149,9 +133,17 @@
       <find>strengths</find>
       <find>FFF</find>
       <find>wearable</find>
+      <find>social</find>
+      <find>footerT</find>
+      <find>site</find>
+      <find>demo</find>
+      <find>project</find>
+      <find>20</find>
+      <find>about</find>
+      <find>otherTitle</find>
+      <find>text</find>
     </findStrings>
     <replaceStrings>
-      <replace>gradient</replace>
       <replace>white</replace>
       <replace>gray</replace>
       <replace>headerSection</replace>
@@ -179,6 +171,9 @@
       <replace>strengths</replace>
       <replace>wearable</replace>
       <replace>demo</replace>
+      <replace>credits</replace>
+      <replace>contact</replace>
+      <replace>about</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -210,10 +205,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1122" />
+    <option name="x" value="271" />
     <option name="y" value="23" />
-    <option name="width" value="1259" />
-    <option name="height" value="1193" />
+    <option name="width" value="1009" />
+    <option name="height" value="752" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -244,7 +239,22 @@
               <item name="portfolio2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="headshot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="modal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="modal" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio2019" type="b2602c69:ProjectViewProjectNode" />
@@ -281,19 +291,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/modal/about" />
+      <recent name="$PROJECT_DIR$/src/assets/modal/mobileApp" />
+      <recent name="$PROJECT_DIR$/src/assets/misc" />
+      <recent name="$PROJECT_DIR$/src/assets/project" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/assets/social" />
       <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/modal/mobileApp" />
-      <recent name="$PROJECT_DIR$/src/assets/misc" />
-      <recent name="$PROJECT_DIR$/src/assets/project" />
-      <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/src/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -331,7 +341,8 @@
       <workItem from="1551719078567" duration="15388000" />
       <workItem from="1552344302619" duration="436000" />
       <workItem from="1552506042250" duration="654000" />
-      <workItem from="1552668444755" duration="12641000" />
+      <workItem from="1552668444755" duration="12736000" />
+      <workItem from="1552867217863" duration="7613000" />
     </task>
     <task id="LOCAL-00001" summary="adjusted size of signature">
       <created>1550986447095</created>
@@ -389,11 +400,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551746545155</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added modals for cards, added animated Projects Header">
+      <created>1552683537427</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552683537427</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66200000" />
+    <option name="totallyTimeSpent" value="73908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -405,10 +423,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1122" y="23" width="1259" height="1193" extended-state="0" />
+    <frame x="271" y="23" width="1009" height="752" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22051696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17206478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -427,6 +445,26 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22040816" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32992566" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978338" weight="0.32846716" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.498" weight="0.27445257" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502" side_tool="true" weight="0.13722628" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -442,7 +480,8 @@
     <MESSAGE value="committing" />
     <MESSAGE value="fixed flex direction of footer" />
     <MESSAGE value="fixed background gradient" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed background gradient" />
+    <MESSAGE value="added modals for cards, added animated Projects Header" />
+    <option name="LAST_COMMIT_MESSAGE" value="added modals for cards, added animated Projects Header" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/css/bootstrap.css">
@@ -506,25 +545,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="171" column="43" lean-forward="true" selection-start-line="171" selection-start-column="43" selection-end-line="171" selection-end-column="43" />
-          <folding>
-            <element signature="e#18562#18569#1" expanded="true" />
-            <element signature="e#21565#21572#1" expanded="true" />
-            <element signature="e#22521#22528#1" expanded="true" />
-            <element signature="e#23285#23292#1" expanded="true" />
-            <element signature="e#24106#24113#1" expanded="true" />
-            <element signature="e#24905#24912#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="317">
+          <caret line="555" column="1" lean-forward="true" selection-start-line="555" selection-start-column="1" selection-end-line="555" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="509" column="1" lean-forward="true" selection-start-line="509" selection-start-column="1" selection-end-line="509" selection-end-column="1" />
+        <state relative-caret-position="81">
+          <caret line="273" column="94" selection-start-line="273" selection-start-column="94" selection-end-line="273" selection-end-column="94" />
+          <folding>
+            <element signature="e#28703#28710#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
