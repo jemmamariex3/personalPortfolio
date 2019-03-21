@@ -320,12 +320,30 @@ button.border-box{
 }
 .skillTitles{
     font-size: 16px;
-    color: #47b9d1;
+    color: #797ab6;
 }
 .technicalSkills{
     display: flex;
     flex-direction: column;
 }
+
+/*Credits CSS*/
+#creditsHeader{
+    background-color: #b1d4c6;
+}
+#creditsTitle{
+    color: #FFFFFF;
+}
+
+/*Contact CSS*/
+#contactHeader{
+    background-color: #b1d4c6;
+}
+#contactTitle{
+    color: #FFFFFF;
+}
+
+
 
 /*Animated Arrow*/
 .the-arrow {
